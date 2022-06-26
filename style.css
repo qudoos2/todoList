@@ -113,3 +113,21 @@ select{
     background: white;
     color: #ff6f47;
 }
+@media screen and (max-width: 670px){
+    form{
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    .todo-input{
+        width: 30%;
+    }
+
+    .select{
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 350px){
+    .todo-input{
+        width: 20%;
+    }
+}
